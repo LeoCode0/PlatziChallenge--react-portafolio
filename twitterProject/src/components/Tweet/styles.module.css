@@ -1,0 +1,61 @@
+.tweet{
+  margin: 20px 0;
+  width: 440px;
+}
+
+.header{
+  display: flex;
+}
+
+.header img{
+  border-radius: 50%;
+  margin: 0 20px;
+  height: 45px;
+  height: 45px;
+}
+
+.header span{
+  margin: 0 10px;
+}
+
+.name{
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.gray{
+  font-size: 16px;
+  color: gray;
+}
+
+.children{
+  padding: 10px 20px;
+}
+
+.children p{
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.children img{
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.list{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.list button{
+  background: transparent;
+  border: 0;
+  font-size: 16px;
+}
+
+.list button:hover{
+  cursor: pointer;
+}
