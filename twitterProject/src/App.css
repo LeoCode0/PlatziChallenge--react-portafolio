@@ -1,3 +1,7 @@
+:root{
+  --border-color: #8080804d;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -6,4 +10,25 @@
 
 body{
   font-family: sans-serif;
+}
+
+.img-default{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+button{
+  border: 0;
+  background: transparent;
+  font-size: 16px;
+  
+}
+
+button:hover{
+  cursor: pointer;
 }

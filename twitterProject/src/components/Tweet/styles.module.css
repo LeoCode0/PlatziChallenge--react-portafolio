@@ -1,17 +1,19 @@
 .tweet{
+  padding: 20px 0;
   margin: 20px 0;
-  width: 440px;
+  width: 100%;
+  border-top: 1px solid var(--gray-color);
+  border-bottom: 1px solid var(--gray-color);
 }
 
 .header{
   display: flex;
+  width: 100%;
 }
 
 .header img{
-  border-radius: 50%;
   margin: 0 20px;
-  height: 45px;
-  height: 45px;
+
 }
 
 .header span{
@@ -39,23 +41,13 @@
 
 .children img{
   border-radius: 20px;
-  height: 300px;
-  width: 300px;
+  height: auto;
+  max-height: 500px;
+  width: 100%;
   object-fit: cover;
 }
 
 .list{
   display: flex;
   justify-content: space-around;
-  list-style: none;
-}
-
-.list button{
-  background: transparent;
-  border: 0;
-  font-size: 16px;
-}
-
-.list button:hover{
-  cursor: pointer;
 }

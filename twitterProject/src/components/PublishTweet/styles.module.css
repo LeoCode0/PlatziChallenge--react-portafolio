@@ -1,0 +1,42 @@
+.publishTweet{
+  display: flex;  
+  width: 100%;
+}
+
+.profilePic{
+  margin: 20px;
+}
+
+.form textarea{
+  border: 0;
+  font-family: sans-serif;
+  font-size: 22px;
+  padding: 10px;
+  height: 200px;
+  width: 400px;
+  resize: none;
+}
+
+.footer{
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list li button{
+  font-size: 22px;
+}
+
+.submit{
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #00d5ff;
+  color: white;
+}
