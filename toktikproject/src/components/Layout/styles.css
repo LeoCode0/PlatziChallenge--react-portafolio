@@ -1,0 +1,26 @@
+.layout{
+  position: relative;
+  color: white;
+  font-size: 20px;
+}
+
+.layout--ul{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.layout--footer{
+  margin: 10px 0;
+  max-width: 90vw;
+  height: 35px;
+  text-overflow: clip;
+  overflow: hidden;
+}
+
+.layout--footer span{
+  margin: 10px;
+}
+

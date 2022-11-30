@@ -1,0 +1,33 @@
+.comment{
+  margin: 40px 0;
+  padding: 0 10px;
+}
+
+.comment p{
+  font-size: 16px;
+}
+
+.comment--header{
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.comment--header img{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.comment--main{
+  display: flex;
+}
+
+.comment--main p{
+  width: 80%;
+}
+
+.comment--main button{
+  font-size: 20px;
+}
