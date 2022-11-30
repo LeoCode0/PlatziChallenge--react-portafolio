@@ -12,7 +12,7 @@
 
 🚧WIP🚧
 
-## Project secret 🔐
+## Clon de pinterest 
 
 🚧WIP🚧
 
