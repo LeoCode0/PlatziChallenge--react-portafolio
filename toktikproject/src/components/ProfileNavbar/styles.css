@@ -1,0 +1,25 @@
+.profileNavbar{
+  border: 1px solid gainsboro;
+}
+
+.profileNavbar--list{
+  display: flex;
+  width: 100%;
+}
+
+.profileNavbar--list li{
+  border-right: 1px solid gainsboro;
+  width: 50%;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.profileNavbar--list a{
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}

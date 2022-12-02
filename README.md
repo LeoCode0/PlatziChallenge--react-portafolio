@@ -4,9 +4,10 @@
 
 > Si te perdiste la edición anterior del reto, aquí te dejo el [repositorio](https://github.com/LeoCode0/PlatziChallenge--js-dev) donde están todos los proyectos. Recuerda mandar tu solución a la branch solutions.
 
-## TikTik reproductor
+## TokTik reproductor
 
-🚧WIP🚧
+No, no es un typo, es nuestro propío reproductor de tiktoks creado en comunidad. 
+
 
 ## Twitter timeline
 

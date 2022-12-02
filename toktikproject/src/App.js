@@ -1,15 +1,18 @@
-import { Video } from "./components/Video";
-import { Layout } from "./components/Layout";
-import { Comments } from "./components/comments";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import videoExample from "./assets/videos/big_buck_bunny.mp4"
+import { Home } from "./pages/Home";
+import { Profile } from "./pages/Profile";
 
 function App() {
   return (
-    <Layout>
-      <Video source={videoExample} poster="https://picsum.photos/900" />
-      <Comments />
-    </Layout>      
+    <div className="App" >
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

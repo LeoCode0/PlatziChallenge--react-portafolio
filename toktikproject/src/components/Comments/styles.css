@@ -1,0 +1,13 @@
+.comments{
+  background-color: whitesmoke;
+  color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  border: 5px solid whitesmoke;
+  height: 50vh;
+  overflow-y: scroll;
+}
