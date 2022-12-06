@@ -1,0 +1,14 @@
+.story{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 2px;
+  margin: 0 20px;
+  border: 1px solid blue;
+}
+
+.story img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
