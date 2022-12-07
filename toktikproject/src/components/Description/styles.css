@@ -1,0 +1,18 @@
+.description{
+  position: absolute;
+  color: white;
+  opacity: 0.8;
+  padding: 15px;
+  font-size: 18px;
+  bottom: 0;
+  background: rgba(0, 0, 0 , 0.9);
+}
+
+.description--profile{
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.description--date{
+  margin-top: 5px;
+}

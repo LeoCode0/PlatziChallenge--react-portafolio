@@ -1,0 +1,23 @@
+.item{
+  display: flex;
+}
+
+.item img{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.item h3{
+  font-size: 24px;
+}
+
+.item p{
+  margin: 5px 0;
+}
+
+.item a{
+  text-decoration: none;
+  color: rgb(12, 100, 255);
+}
