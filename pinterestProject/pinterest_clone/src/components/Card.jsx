@@ -1,10 +1,10 @@
 import React from 'react'
 
 export default function Card(props) {
-	const {author, url} = props
-	const image = 'https://i.pinimg.com/564x/77/7f/9d/777f9d1a315807be78c9c04abdd6d002.jpg'
+	const {author, image} = props
+	
   return (
-	 <div className='w-72 h-72 rounded-lg overflow-hidden '>
+	 <div className='w-72 h-auto rounded-lg overflow-hidden '>
 		<div className=''>
 			<div className='rounded-lg'>
 				<img className='rounded-lg' src={image} alt="" />
