@@ -28,3 +28,27 @@
   object-fit: cover;
 }
 
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  width: 30%;
+  height: 30px;
+  border: 1px solid whitesmoke;
+  margin: 0 10px;
+  border-radius: 15px;
+  text-align: center;
+  background: transparent;
+  text-decoration: none;
+}
+
+.button:hover{
+  cursor: pointer;
+}

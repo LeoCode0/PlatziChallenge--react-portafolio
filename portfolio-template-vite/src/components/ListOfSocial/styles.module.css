@@ -1,2 +1,12 @@
 .list{
+  background-color: white;
+  margin: 10px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  width: max-content;
+  height: max-content;
+}
+
+.list li{
+  margin: 10px 0;
 }

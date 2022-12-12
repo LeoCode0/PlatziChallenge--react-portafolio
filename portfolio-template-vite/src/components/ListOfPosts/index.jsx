@@ -7,10 +7,12 @@ export const ListOfPosts = () => {
   return (
     <div >
       <Post 
-        title={"Hey este es mi portafolio"} 
+        title={"Mi perfil de Platzi"} 
         date={new Date().toJSON().slice(0, 10)} 
-        content="Texto de prueba" 
+        content="Hola!! Este es mi perfil de platzi donde tengo todos mis certificados, saludos" 
         img={"https://picsum.photos/800"} 
+        liveUrl={"https://platzi.com"}
+        repoUrl={"https://github.com/LeoCode0"}
       />
       <Post 
         title={"Hey este es mi portafolio"} 

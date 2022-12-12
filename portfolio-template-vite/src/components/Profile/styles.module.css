@@ -1,0 +1,43 @@
+.profile{
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  height: max-content;
+  width: max-content;
+  min-width: 300px;
+}
+
+.img-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-container img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid ;
+}
+
+.list{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.list li{
+  text-align: center;
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.description{
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
